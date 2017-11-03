@@ -3,27 +3,38 @@
 	height: 100%;
 }
 div.container{
-	background-color: rgba(255,255,0,0.5);
+	background: rgb(137,44,151); /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, rgb(137,44,151) , rgb(251,0,0)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, rgb(137,44,151), rgb(251,0,0)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, rgb(137,44,151), rgb(251,0,0)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, rgb(137,44,151) , rgb(251,0,0)); /* Standard syntax */
 	margin: 0px;
 	width: 100%;
 
 }
+.home{
+	color: black;
+}
 #header{
+	color: white;
 	font-family: 'Playfair Display', serif;
 	padding-top: 15px;
 	padding-bottom:  15px;
 	font-size: 5vh;
 }
 
-#navigationbar {	margin: auto;
+#navigationbar {	
+
+top: 20px;
+	margin: auto;
 	position: absolute;
 }
 #navbari:hover {
-	color: black;
+	color: rgba(255,255,255,1);
 	font-size: 150%;
 }
 #navbari {
-	color: rgb(85,85,85);
+	color: rgba(255,255,255,0.7);
 }
 a{
 
@@ -31,7 +42,7 @@ a{
 }
 #main {
     transition: margin-left 0s;
-    color: rgb(150,150,150);
+    color: white;
     padding: 25px;
     padding-top: 5px;
     background-color: transparent;
@@ -42,6 +53,8 @@ a{
 }
 
 .sidenav {
+
+
     height: 100%;
     width: 0;
     position: fixed;
@@ -78,8 +91,9 @@ a{
 
 
 div.third {
+	text-align: center;
 	width: 100%;
-	background-color: black;
+	background-color: rgb(136,45,151);
 	position: absolute;
 	bottom: 0px;
 	
@@ -91,13 +105,15 @@ div.insidethird {
  	margin: 20px;
  	position: relative; 
  	display: block; 
- 	padding-top: 30px;
- 	padding-bottom: 30px;
+ 	padding-top: 20px;
+ 	padding-bottom: 20px;
  	padding-left: 7px;
 	}
 
 .circle-big {
-
+position: relative;
+margin: auto;
+top: 27%;
   width: 200px;
   height: 200px;
   -moz-border-radius: 100px;
@@ -136,5 +152,8 @@ div.insidethird {
 .circle-small:hover {
 	transition: all .2s ease-in-out;
 	transform: scale(2);
+}
+.dp{
+	height: 75%;
 }
 
