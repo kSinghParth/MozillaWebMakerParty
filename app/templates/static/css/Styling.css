@@ -1,12 +1,12 @@
 div.container{
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(255,255,0,0.5);
 	margin: 0px;
 	width: 100%;
 
 }
 #header{
 	font-family: Merriweather;
-	padding: 20px;
+	padding: 120px;
 	font-size: 50px;
 }
 
