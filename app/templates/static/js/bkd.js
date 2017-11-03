@@ -3,9 +3,7 @@
 				     "100%";
 				    document.getElementById("main").style.marginLeft = 
 				    "250px";
-				    
-				    document.getElementById("circle-centre").style.z-index="-1";	
-			    
+				    document.getElementById("circle-centre").style.display = 'none';			    
 				}
 
 				function closeNav() {
