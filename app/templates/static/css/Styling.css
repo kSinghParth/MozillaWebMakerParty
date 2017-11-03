@@ -16,7 +16,6 @@ div.container{
 }
 
 #navigationbar {	margin: auto;
-	background-color: black; 
 	position: absolute;
 }
 #navbari:hover {
@@ -98,7 +97,7 @@ div.insidethird {
 	}
 
 .circle-big {
-	
+
   width: 200px;
   height: 200px;
   -moz-border-radius: 100px;
@@ -139,6 +138,3 @@ div.insidethird {
 	transform: scale(2);
 }
 
-.dp{
-	background-color: black;
-}
