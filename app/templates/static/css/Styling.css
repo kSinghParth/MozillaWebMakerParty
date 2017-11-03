@@ -13,16 +13,57 @@ div.container{
 
 div.third {
 	background-color: black;
-	
+
 }
 div.insidethird {
 	width: 310px;
 	margin: auto;
 	margin-top: 30px;
  	margin: 20px;
- 	position: relative; 
- 	display: block; 
+ 	position: relative;
+ 	display: block;
  	padding-top: 30px;
  	padding-bottom: 30px;
  	padding-left: 7px;
 	}
+
+.circle-big {
+  width: 200px;
+  height: 200px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+	border: solid;
+  border-color: black;
+}
+.circle-big:hover {
+	transition: all .2s ease-in-out;
+	transform: scale(2);
+}
+.circle-medium {
+  width: 100px;
+  height: 100px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+	border: solid;
+  border-color: black;
+}
+.circle-medium:hover {
+	transition: all .2s ease-in-out;
+	transform: scale(2);
+}
+
+.circle-small {
+  width: 50px;
+  height: 50px;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+	border:solid;
+  border-color: black;
+}
+.circle-small:hover {
+	transition: all .2s ease-in-out;
+	transform: scale(2);
+}
