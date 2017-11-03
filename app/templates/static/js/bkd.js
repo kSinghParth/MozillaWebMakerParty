@@ -2,8 +2,7 @@
 				    document.getElementById("mySidenav").style.width =
 				     "100%";
 				    document.getElementById("main").style.marginLeft = 
-				    "250px";
-				    document.getElementById("circle-centre").style.display = 'none';			    
+				    "250px";			    
 				}
 
 				function closeNav() {
