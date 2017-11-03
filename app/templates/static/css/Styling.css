@@ -108,6 +108,8 @@ div.insidethird {
 	}
 
 .circle-big {
+  background-color: white;
+  border-color: rgba(0,0,0,0.3);
 position: relative;
 margin: auto;
 top: 30%;
@@ -123,6 +125,7 @@ top: 30%;
 .circle-big:hover {
 	transition: all .5s ease-in-out;
 	transform: scale(2);
+  border-color: rgba(0,0,0,0.3);
 }
 .circle-medium {
   width: 15vh;
@@ -154,5 +157,7 @@ top: 30%;
 	transform: scale(2);
 }
 .dp{
-	height: 75%;
+  background-image: url('https://i.pinimg.com/736x/36/84/e3/3684e357bece6aac392b987e696bcfda--watercolor-map-watercolor-design.jpg');
+	
+  height: 75%;
 }
