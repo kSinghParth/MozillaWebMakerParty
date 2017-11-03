@@ -10,6 +10,10 @@ div.container{
 	width: 100%;
 
 }
+div.content{
+  padding-top:  100px;
+  font-size: 60px;
+}
 .home{
 	color: black;
 }
@@ -56,7 +60,7 @@ a{
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     top: 0;
     right:  0px;
     background-color: #111;
@@ -115,6 +119,7 @@ div.insidethird {
 position: relative;
 margin: auto;
 top: 30%;
+z-index: 1;
   width: 30vh;
   height: 30vh;
   -moz-border-radius: 15vh;
@@ -125,6 +130,7 @@ top: 30%;
 	transition: all .5s ease-in-out
 }
 .circle-big:hover {
+  
 	transition: all .5s ease-in-out;
 	transform: scale(2);
   border-color: rgba(0,0,0,0.3);
@@ -159,6 +165,7 @@ top: 30%;
 	transform: scale(2);
 }
 .dp{
+
   background-image: url('https://i.pinimg.com/736x/36/84/e3/3684e357bece6aac392b987e696bcfda--watercolor-map-watercolor-design.jpg');
 	
   height: 100%;
