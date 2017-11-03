@@ -3,6 +3,7 @@
 	height: 100%;
 }
 div.container{
+  position: fixed;
 	background: #2980b9; /* For browsers that do not support gradients */
    /* Standard syntax */
 	margin: 0px;
@@ -88,6 +89,7 @@ a{
 
 
 div.third {
+  position: fixed;
 	text-align: center;
 	width: 100%;
 	background-color: #2980b9;
