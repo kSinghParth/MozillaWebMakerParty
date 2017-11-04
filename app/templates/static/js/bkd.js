@@ -11,7 +11,7 @@
 				function closeNav() {
 				    document.getElementById("mySidenav").style.width = "0";
 				    document.getElementById("main").style.marginLeft= "0";
-						document.getElementById("circle-centre").style.zIndex="0";	
+						document.getElementById("circle-centre").style.zIndex="0";
 				}
 function openNav2(){
 	document.getElementById("blurry").style.zIndex="4";
